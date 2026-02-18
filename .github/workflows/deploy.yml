@@ -64,7 +64,7 @@ jobs:
         run: sleep 5
 
       - name: Run OWASP ZAP Baseline Scan
-        uses: owasp/zap@latest
+        uses: zaproxy/action-baseline@latest
         with:
           target: http://127.0.0.1:4173
 
