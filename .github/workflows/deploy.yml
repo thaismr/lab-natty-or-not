@@ -38,15 +38,15 @@ jobs:
           cd ../frontend && npm install
 
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@v2
+        uses: github/codeql-action/init@v3
         with:
           languages: javascript
 
       - name: Autobuild projects
-        uses: github/codeql-action/autobuild@v2
+        uses: github/codeql-action/autobuild@v3
 
       - name: Perform CodeQL analysis
-        uses: github/codeql-action/analyze@v2
+        uses: github/codeql-action/analyze@v3
 
       - name: Build frontend assets for DAST
         run: |
@@ -64,10 +64,9 @@ jobs:
         run: sleep 5
 
       - name: Run OWASP ZAP Baseline Scan
-        uses: zaproxy/action-baseline@v0.6.0
+        uses: owasp/zap@latest
         with:
           target: http://127.0.0.1:4173
-          cmd_options: '-t 2 -r clinic-demo'
 
       - name: Stop http-server
         if: always()
