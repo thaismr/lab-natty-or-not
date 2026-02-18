@@ -1,0 +1,190 @@
+name: Deploy Clinic Demo
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      sqlAdminPassword:
+        description: 'SQL Admin Password'
+        required: true
+        type: string
+
+env:
+  AZURE_RENAME: ${{ secrets.AZURE_RENAME }}
+  AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
+  AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
+  AZURE_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+  RESOURCE_GROUP: clinic-demo-rg
+  LOCATION: eastus
+
+jobs:
+  security-checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install function/frontend deps
+        run: |
+          cd functions && npm install
+          cd ../frontend && npm install
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v2
+        with:
+          languages: javascript
+
+      - name: Autobuild projects
+        uses: github/codeql-action/autobuild@v2
+
+      - name: Perform CodeQL analysis
+        uses: github/codeql-action/analyze@v2
+
+      - name: Build frontend assets for DAST
+        run: |
+          cd frontend
+          npm run build
+
+      - name: Install http-server
+        run: npm install -g http-server
+
+      - name: Serve frontend build
+        run: |
+          npx http-server frontend/build -p 4173 -a 127.0.0.1 > /tmp/http-server.log &
+          echo $! > /tmp/http-server.pid
+      - name: Wait for server readiness
+        run: sleep 5
+
+      - name: Run OWASP ZAP Baseline Scan
+        uses: owasp/zaproxy/action-baseline@v0.6.0
+        with:
+          target: http://127.0.0.1:4173
+          cmd_options: '-t 2 -r clinic-demo'
+
+      - name: Stop http-server
+        if: always()
+        run: kill $(cat /tmp/http-server.pid) || true
+
+      - name: Scan repository for secrets
+        uses: trufflesecurity/trufflehog@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          path: .
+
+  build-and-deploy:
+    needs: [security-checks]
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Build Frontend
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install frontend dependencies
+        run: npm ci
+        working-directory: ./frontend
+
+      - name: Build frontend
+        run: npm run build
+        working-directory: ./frontend
+        env:
+          REACT_APP_API_URL: ${{ secrets.API_URL }}
+
+      # Install Azure CLI and Bicep
+      - name: Azure Login
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_RENAME }}
+
+      - name: Install Bicep
+        run: az bicep install
+
+      # Deploy Infrastructure (Bicep)
+      - name: Deploy Infrastructure
+        run: |
+          az deployment group create \
+            --resource-group ${{ env.RESOURCE_GROUP }} \
+            --template-file infra/main.bicep \
+            --parameters location=${{ env.LOCATION }} \
+            --parameters sqlAdminPassword='${{ github.inputs.sqlAdminPassword }}'
+        shell: bash
+
+      # Get SQL Server connection details
+      - name: Get SQL Server details
+        id: sql-details
+        run: |
+          SQL_SERVER=$(az sql server list -g ${{ env.RESOURCE_GROUP }} --query [0].name -o tsv)
+          SQL_FQDN=$(az sql server show -g ${{ env.RESOURCE_GROUP }} -n $SQL_SERVER --query fullyQualifiedDomainName -o tsv)
+          echo "sql-server=$SQL_SERVER" >> $GITHUB_OUTPUT
+          echo "sql-fqdn=$SQL_FQDN" >> $GITHUB_OUTPUT
+        shell: bash
+
+      # Create database schema
+      - name: Create Database Schema
+        run: |
+          az sql db create \
+            --resource-group ${{ env.RESOURCE_GROUP }} \
+            --server ${{ steps.sql-details.outputs.sql-server }} \
+            --name clinicdb \
+            --sku-name Basic \
+            --service-objective Basic
+        shell: bash
+
+      # Run schema.sql
+      - name: Run Database Schema
+        run: |
+          az sql db execute \
+            --resource-group ${{ env.RESOURCE_GROUP }} \
+            --server ${{ steps.sql-details.outputs.sql-server }} \
+            --database clinicdb \
+            --query "$(cat infra/schema.sql)"
+        shell: bash
+
+      # Run database seed
+      - name: Seed Database
+        run: |
+          cd infra
+          npm install
+          DB_SERVER="${{ steps.sql-details.outputs.sql-fqdn }}" \
+          DB_USER="sqladmin" \
+          DB_PASSWORD='${{ github.inputs.sqlAdminPassword }}' \
+          DB_NAME="clinicdb" \
+          npm run seed
+        shell: bash
+
+      # Deploy Functions
+      - name: Setup Azure Functions Core Tools
+        uses: Azure/functions-action@v1
+        with:
+          app-name: clinicDemoFunctions
+          package: ./functions
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          slot-name: production
+
+      # Deploy Static Web App
+      - name: Azure Static Web Apps Deploy
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          action: "upload"
+          app_location: "frontend/build"
+          api_location: "functions"
+          output_location: ""
+        env:
+          REACT_APP_API_URL: ${{ secrets.API_URL }}

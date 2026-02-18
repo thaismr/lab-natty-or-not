@@ -1,0 +1,9 @@
+/# ignore all node_modules folders anywhere
+**/node_modules/
+
+# project-specific
+/frontend/node_modules/
+/functions/node_modules/
+/infra/node_modules/
+.env
+.local.settings.json
