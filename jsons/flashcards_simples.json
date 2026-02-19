@@ -1,0 +1,527 @@
+[
+  {
+    "id": 1,
+    "pergunta": "Como Santo Anselmo de Cantuária define a teologia?",
+    "resposta": "Ele a define como \"a fé procurando o entendimento\" (Fides quaerens intellectum)."
+  },
+  {
+    "id": 2,
+    "pergunta": "Qual termo técnico São Tomás de Aquino utilizava para denominar a teologia?",
+    "resposta": "Ele a denominava como \"Sacra Doctrina\" (Ciência Sagrada)."
+  },
+  {
+    "id": 3,
+    "pergunta": "De acordo com o Catecismo da Igreja Católica, o que é a teologia?",
+    "resposta": "É a reflexão sobre a fé à luz da razão humana."
+  },
+  {
+    "id": 4,
+    "pergunta": "Qual é o objeto material de estudo da teologia?",
+    "resposta": "O objeto material é o próprio Deus e tudo o que se relaciona com Ele."
+  },
+  {
+    "id": 5,
+    "pergunta": "O que constitui o objeto formal da teologia?",
+    "resposta": "É a realidade divina vista à luz da Revelação e da fé."
+  },
+  {
+    "id": 6,
+    "pergunta": "Segundo Mário Bunge, quais são as três características que definem a teologia como ciência?",
+    "resposta": "Ela possui um objeto de estudo específico, utiliza métodos rigorosos e constrói um corpo de conhecimento coerente."
+  },
+  {
+    "id": 7,
+    "pergunta": "Quais são as três fontes de fé que compõem o \"tripé\" da teologia católica?",
+    "resposta": "Sagrada Escritura, Sagrada Tradição e Sagrado Magistério."
+  },
+  {
+    "id": 8,
+    "pergunta": "Como se define o conceito de \"Revelação divina\" na teologia?",
+    "resposta": "É o ato de Deus se manifestar e dar a conhecer o mistério de Sua vontade aos seres humanos."
+  },
+  {
+    "id": 9,
+    "pergunta": "Qual a diferença fundamental entre catequese e teologia segundo o material?",
+    "resposta": "A catequese foca em conhecer a fé, enquanto a teologia foca em compreendê-la racionalmente."
+  },
+  {
+    "id": 10,
+    "pergunta": "O termo _____ refere-se ao autor humano de um livro sagrado que escreveu sob a inspiração do Espírito Santo.",
+    "resposta": "Hagiógrafo"
+  },
+  {
+    "id": 11,
+    "pergunta": "Na interpretação bíblica, o que é o \"sentido literal\"?",
+    "resposta": "É o significado expresso diretamente pelas palavras da Escritura e descoberto pela exegese."
+  },
+  {
+    "id": 12,
+    "pergunta": "Qual sentido espiritual da Bíblia busca reconhecer o significado dos acontecimentos em Cristo?",
+    "resposta": "Sentido Alegórico."
+  },
+  {
+    "id": 13,
+    "pergunta": "O sentido _____ da Escritura utiliza os relatos bíblicos para instruir os fiéis a agirem com justiça.",
+    "resposta": "Moral"
+  },
+  {
+    "id": 14,
+    "pergunta": "O que busca explicar o \"sentido anagógico\" da Sagrada Escritura?",
+    "resposta": "Busca ver realidades e acontecimentos em sua significação eterna, conduzindo à pátria celeste."
+  },
+  {
+    "id": 15,
+    "pergunta": "Quem é considerado o autor principal da Sagrada Escritura na visão católica?",
+    "resposta": "Deus é o autor principal, tendo inspirado os autores humanos."
+  },
+  {
+    "id": 16,
+    "pergunta": "O que compõe a Sagrada Tradição da Igreja?",
+    "resposta": "A pregação apostólica, a liturgia, os escritos dos Padres da Igreja e a vida dos santos."
+  },
+  {
+    "id": 17,
+    "pergunta": "Qual a função do Sagrado Magistério da Igreja?",
+    "resposta": "Interpretar autenticamente a Palavra de Deus escrita ou transmitida."
+  },
+  {
+    "id": 18,
+    "pergunta": "O Magistério da Igreja é exercido pelo _____ em unidade com os bispos.",
+    "resposta": "Papa"
+  },
+  {
+    "id": 19,
+    "pergunta": "O axioma latino _____ significa que a maneira como a Igreja reza revela o que ela crê.",
+    "resposta": "Lex orandi, lex credendi"
+  },
+  {
+    "id": 20,
+    "pergunta": "Por que a Igreja utiliza a Tradição oral além da Bíblia?",
+    "resposta": "Porque a Bíblia não contém toda a Revelação e foi a Tradição que definiu o próprio cânon bíblico."
+  },
+  {
+    "id": 21,
+    "pergunta": "Etimologicamente, o que significa a palavra \"filosofia\"?",
+    "resposta": "Significa \"amor à sabedoria\" (philo-sophia)."
+  },
+  {
+    "id": 22,
+    "pergunta": "Qual a principal diferença entre a filosofia e as ciências particulares?",
+    "resposta": "A filosofia interroga o sentido último da realidade em sua totalidade, enquanto as ciências focam em aspectos específicos."
+  },
+  {
+    "id": 23,
+    "pergunta": "Quem são os filósofos pré-socráticos?",
+    "resposta": "Pensadores que buscavam a origem (arché) de todas as coisas na natureza."
+  },
+  {
+    "id": 24,
+    "pergunta": "Na filosofia grega antiga, o que significa o termo \"arché\"?",
+    "resposta": "Significa o princípio fundamental ou substância originária de todas as coisas."
+  },
+  {
+    "id": 25,
+    "pergunta": "Qual elemento Tales de Mileto considerava ser a arché do universo?",
+    "resposta": "A água."
+  },
+  {
+    "id": 26,
+    "pergunta": "Anaxímenes de Mileto propôs que o _____ era o princípio primordial da realidade.",
+    "resposta": "Ar"
+  },
+  {
+    "id": 27,
+    "pergunta": "Qual filósofo defendeu que o fogo era o princípio primordial, simbolizando a mudança constante (panta rhei)?",
+    "resposta": "Heráclito de Éfeso."
+  },
+  {
+    "id": 28,
+    "pergunta": "O que o método da \"Maêutica\" de Sócrates visava realizar?",
+    "resposta": "Visava o \"parto das ideias\", ajudando as pessoas a descobrirem o conhecimento que já possuíam na alma."
+  },
+  {
+    "id": 29,
+    "pergunta": "Explique a distinção de Platão entre \"Mundo Sensível\" e \"Mundo das Ideias\".",
+    "resposta": "O Mundo Sensível é uma cópia imperfeita e mutável das Formas perfeitas e eternas que existem no Mundo das Ideias."
+  },
+  {
+    "id": 30,
+    "pergunta": "O que representa o \"Sol\" na Alegoria da Caverna de Platão?",
+    "resposta": "Representa a Ideia do Bem, fonte de toda a verdade e conhecimento."
+  },
+  {
+    "id": 31,
+    "pergunta": "Na metafísica de Aristóteles, defina \"Ato\" e \"Potência\".",
+    "resposta": "Ato é a perfeição ou realização de um ser, enquanto Potência é a capacidade de mudar ou tornar-se algo."
+  },
+  {
+    "id": 32,
+    "pergunta": "Como Aristóteles explica a relação entre \"Matéria\" e \"Forma\"?",
+    "resposta": "A matéria é o substrato indeterminado do que algo é feito, e a forma é a estrutura que lhe dá identidade."
+  },
+  {
+    "id": 33,
+    "pergunta": "Quem é o \"Motor Imóvel\" na filosofia de Aristóteles?",
+    "resposta": "É o Ser supremo, ato puro e imutável que é a causa final de todo movimento no universo."
+  },
+  {
+    "id": 34,
+    "pergunta": "Qual o foco principal da filosofia medieval ou cristã?",
+    "resposta": "Harmonizar a fé e a razão para compreender Deus e a Revelação."
+  },
+  {
+    "id": 35,
+    "pergunta": "Santo Agostinho utilizou as ideias de _____ para fundamentar a teologia cristã.",
+    "resposta": "Platão"
+  },
+  {
+    "id": 36,
+    "pergunta": "Como Santo Agostinho explica o mal?",
+    "resposta": "O mal não é um ser, mas sim a privação do bem."
+  },
+  {
+    "id": 37,
+    "pergunta": "Qual o papel da \"Iluminação Divina\" no pensamento de Santo Agostinho?",
+    "resposta": "É a luz de Deus na mente humana que permite o conhecimento das verdades eternas."
+  },
+  {
+    "id": 38,
+    "pergunta": "São Tomás de Aquino integrou a filosofia de _____ ao pensamento católico.",
+    "resposta": "Aristóteles"
+  },
+  {
+    "id": 39,
+    "pergunta": "O que são as \"Cinco Vias\" de São Tomás de Aquino?",
+    "resposta": "São argumentos racionais utilizados para provar a existência de Deus."
+  },
+  {
+    "id": 40,
+    "pergunta": "Na antropologia tomista, qual a relação entre o corpo e a alma?",
+    "resposta": "Eles formam uma união substancial, onde o corpo é a expressão material da alma racional."
+  },
+  {
+    "id": 41,
+    "pergunta": "Qual a tese central do \"Racionalismo\" na Idade Moderna?",
+    "resposta": "A razão é a principal fonte e critério do conhecimento verdadeiro, independente da experiência sensível."
+  },
+  {
+    "id": 42,
+    "pergunta": "A frase \"Penso, logo existo\" (Cogito, ergo sum) é atribuída a qual filósofo?",
+    "resposta": "René Descartes."
+  },
+  {
+    "id": 43,
+    "pergunta": "O que defende o \"Empirismo\" filosófico?",
+    "resposta": "Defende que todo o conhecimento provém exclusivamente da experiência sensorial."
+  },
+  {
+    "id": 44,
+    "pergunta": "John Locke comparava a mente humana ao nascer a uma \"tábula rasa\", que significa _____.",
+    "resposta": "Uma folha em branco, sem ideias inatas."
+  },
+  {
+    "id": 45,
+    "pergunta": "Como o Idealismo de Immanuel Kant tenta resolver o conflito entre racionalismo e empirismo?",
+    "resposta": "Propõe que o conhecimento surge da experiência organizada por categorias inatas da mente."
+  },
+  {
+    "id": 46,
+    "pergunta": "O que é o \"Imperativo Categórico\" de Kant?",
+    "resposta": "É a lei moral que ordena agir apenas segundo máximas que possam se tornar leis universais."
+  },
+  {
+    "id": 47,
+    "pergunta": "Qual era a visão de Voltaire sobre a religião no período do Iluminismo?",
+    "resposta": "Ele criticava a Igreja como fonte de superstição e intolerância, propondo uma religião puramente racional (deísmo)."
+  },
+  {
+    "id": 48,
+    "pergunta": "Jean-Jacques Rousseau defendia que o ser humano nasce naturalmente _____, mas é corrompido pela sociedade.",
+    "resposta": "Bom"
+  },
+  {
+    "id": 49,
+    "pergunta": "Quem foi Joseph de Maistre no contexto da filosofia moderna?",
+    "resposta": "Um pensador católico que defendeu a Tradição e a autoridade da Igreja contra os excessos da Revolução Francesa."
+  },
+  {
+    "id": 50,
+    "pergunta": "O termo _____ refere-se ao estudo filosófico e teológico sobre a natureza e o propósito do ser humano.",
+    "resposta": "Antropologia"
+  },
+  {
+    "id": 51,
+    "pergunta": "Por que o estudo da teologia possui uma \"importância antropológica\"?",
+    "resposta": "Porque responde ao desejo natural de verdade inscrito no coração humano."
+  },
+  {
+    "id": 52,
+    "pergunta": "O que significa a \"importância eclesiológica\" da teologia para o leigo?",
+    "resposta": "Significa que o leigo capacitado colabora na edificação e unidade de sua comunidade de fé."
+  },
+  {
+    "id": 53,
+    "pergunta": "Qual a finalidade missionária do estudo teológico?",
+    "resposta": "Preparar o fiel para anunciar o Evangelho com fundamentação, linguagem correta e coragem."
+  },
+  {
+    "id": 54,
+    "pergunta": "O termo \"fides qua\" refere-se ao _____.",
+    "resposta": "Ato pessoal de crer."
+  },
+  {
+    "id": 55,
+    "pergunta": "O termo \"fides quae\" refere-se ao _____.",
+    "resposta": "Conteúdo objetivo da fé (doutrina)."
+  },
+  {
+    "id": 56,
+    "pergunta": "Qual é o principal desafio epistemológico da teologia para leigos segundo Padre Daniel?",
+    "resposta": "Traduzir o rigor conceitual para uma linguagem acessível sem banalizar o mistério."
+  },
+  {
+    "id": 57,
+    "pergunta": "O que é o \"relativismo religioso\" criticado pelo Papa Bento XVI?",
+    "resposta": "A crença de que não existe uma verdade absoluta e que cada pessoa pode criar sua própria fé."
+  },
+  {
+    "id": 58,
+    "pergunta": "Qual o perigo do \"intelectualismo\" no estudo da teologia?",
+    "resposta": "Gerar orgulho espiritual e superioridade em vez de humildade e caridade."
+  },
+  {
+    "id": 59,
+    "pergunta": "No contexto digital, o que significa o termo \"Areópago\"?",
+    "resposta": "Refere-se à internet como a nova praça pública de debate e ensino teológico."
+  },
+  {
+    "id": 60,
+    "pergunta": "A teologia é uma diaconia da verdade. O que significa \"diaconia\"?",
+    "resposta": "Serviço."
+  },
+  {
+    "id": 61,
+    "pergunta": "Segundo o Concílio Vaticano II, em qual pessoa a Revelação divina atinge sua plenitude?",
+    "resposta": "Em Jesus Cristo."
+  },
+  {
+    "id": 62,
+    "pergunta": "O que é a \"Apologética\"?",
+    "resposta": "É a defesa racional da fé católica contra críticas e erros."
+  },
+  {
+    "id": 63,
+    "pergunta": "Qual o papel do Espírito Santo na escrita da Bíblia?",
+    "resposta": "Ele inspirou os autores humanos para que escrevessem a verdade necessária à salvação sem anular sua liberdade."
+  },
+  {
+    "id": 64,
+    "pergunta": "Por que a teologia deve ser feita com humildade?",
+    "resposta": "Porque trata de um Deus que é sempre maior do que nossa capacidade de compreensão."
+  },
+  {
+    "id": 65,
+    "pergunta": "Como a liturgia serve de fonte para a teologia?",
+    "resposta": "Através da celebração dos mistérios, a Igreja expressa e atualiza o que acredita."
+  },
+  {
+    "id": 66,
+    "pergunta": "O que é o \"sincretismo religioso\"?",
+    "resposta": "É a mistura desordenada de doutrinas de diferentes religiões."
+  },
+  {
+    "id": 67,
+    "pergunta": "Quem são os \"Padres da Igreja\"?",
+    "resposta": "Grandes teólogos e santos dos primeiros sete séculos que fundamentaram a doutrina cristã."
+  },
+  {
+    "id": 68,
+    "pergunta": "A constituição dogmática _____ do Concílio Vaticano II trata especificamente sobre a Revelação Divina.",
+    "resposta": "Dei Verbum"
+  },
+  {
+    "id": 69,
+    "pergunta": "O conceito de \"unidade da vida\" (Unitas Vitae) propõe o quê?",
+    "resposta": "Integrar a fé e o estudo teológico no cotidiano, trabalho e família."
+  },
+  {
+    "id": 70,
+    "pergunta": "Na filosofia de Platão, a alma recorda verdades do mundo das ideias. Este processo é chamado de _____.",
+    "resposta": "Reminiscência"
+  },
+  {
+    "id": 71,
+    "pergunta": "Aristóteles define a _____ como o material básico de uma coisa e a _____ como o que lhe dá identidade.",
+    "resposta": "Matéria; Forma"
+  },
+  {
+    "id": 72,
+    "pergunta": "O dualismo cartesiano separa o ser humano em duas substâncias: _____ (mente) e _____ (corpo).",
+    "resposta": "Res cogitans; Res extensa"
+  },
+  {
+    "id": 73,
+    "pergunta": "Baruch Espinosa defendeu o _____, a ideia de que Deus e a Natureza são uma única substância.",
+    "resposta": "Panteísmo"
+  },
+  {
+    "id": 74,
+    "pergunta": "O ceticismo de David Hume questionou principalmente a validade do princípio de _____.",
+    "resposta": "Causalidade (Causa e Efeito)"
+  },
+  {
+    "id": 75,
+    "pergunta": "O que Kant define como \"Númeno\"?",
+    "resposta": "A \"coisa em si\", a realidade última que a razão humana não consegue acessar diretamente."
+  },
+  {
+    "id": 76,
+    "pergunta": "No Iluminismo, o que caracteriza a visão de Deus como um \"Relojoeiro\"?",
+    "resposta": "A ideia de que Deus criou o mundo mas não interfere mais nele (Deísmo)."
+  },
+  {
+    "id": 77,
+    "pergunta": "Para São Tomás de Aquino, a existência de Deus pode ser conhecida pela luz natural da _____.",
+    "resposta": "Razão"
+  },
+  {
+    "id": 78,
+    "pergunta": "A teologia sistemática organiza as verdades da fé em áreas. Cite três exemplos mencionados.",
+    "resposta": "Teologia Bíblica, Teologia Dogmática e Teologia Moral."
+  },
+  {
+    "id": 79,
+    "pergunta": "O cânon católico da Bíblia é composto por quantos livros?",
+    "resposta": "73 livros (46 do Antigo Testamento e 27 do Novo Testamento)."
+  },
+  {
+    "id": 80,
+    "pergunta": "Qual a principal ferramenta sugerida pelo Padre Daniel para organizar o estudo teológico?",
+    "resposta": "O uso de um caderno para anotações ou o computador para registrar o conteúdo sistematicamente."
+  },
+  {
+    "id": 81,
+    "pergunta": "Para os católicos, a fé e a razão são comparadas por São João Paulo II a quê?",
+    "resposta": "A duas asas pelas quais o espírito humano se eleva para a verdade."
+  },
+  {
+    "id": 82,
+    "pergunta": "O que é o \"Depósito da Fé\" (Depositum Fidei)?",
+    "resposta": "O conjunto da Revelação contido na Sagrada Escritura e na Sagrada Tradição confiado à Igreja."
+  },
+  {
+    "id": 83,
+    "pergunta": "Qual o significado de \"Teologia Natural\"?",
+    "resposta": "O conhecimento de Deus alcançado apenas pela razão humana através da criação, sem auxílio da Revelação."
+  },
+  {
+    "id": 84,
+    "pergunta": "Empédocles afirmava que a realidade era formada por quatro elementos: água, ar, fogo e terra, unidos pelo _____ e separados pelo _____.",
+    "resposta": "Amor; Ódio"
+  },
+  {
+    "id": 85,
+    "pergunta": "Sócrates afirmava que o início da sabedoria é o reconhecimento da própria _____.",
+    "resposta": "Ignorância (\"Só sei que nada sei\")"
+  },
+  {
+    "id": 86,
+    "pergunta": "Na Teoria das Ideias de Platão, o mundo físico é apenas uma _____ do mundo espiritual.",
+    "resposta": "Sombra (ou cópia imperfeita)"
+  },
+  {
+    "id": 87,
+    "pergunta": "Aristóteles acreditava que todo conhecimento começa pelos _____.",
+    "resposta": "Sentidos (experiência sensível)"
+  },
+  {
+    "id": 88,
+    "pergunta": "Como São Tomás de Aquino define a verdade?",
+    "resposta": "Como a adequação do intelecto à coisa (Adaequatio rei et intellectus)."
+  },
+  {
+    "id": 89,
+    "pergunta": "A Patrística abrange aproximadamente os primeiros _____ anos da Igreja.",
+    "resposta": "700"
+  },
+  {
+    "id": 90,
+    "pergunta": "Qual o objetivo do curso básico de teologia para leigos segundo o Padre Daniel?",
+    "resposta": "O crescimento pessoal e comunitário do fiel na fé católica."
+  },
+  {
+    "id": 91,
+    "pergunta": "O Magistério da Igreja é _____ da Palavra de Deus, não estando acima dela.",
+    "resposta": "Servo"
+  },
+  {
+    "id": 92,
+    "pergunta": "O termo \"Analogia da Fé\" refere-se à _____ entre todas as verdades reveladas.",
+    "resposta": "Coerência (ou conexão)"
+  },
+  {
+    "id": 93,
+    "pergunta": "Qual a importância de conhecer os estilos literários da Bíblia?",
+    "resposta": "Para interpretar corretamente a intenção do autor sagrado e evitar leituras fundamentalistas."
+  },
+  {
+    "id": 94,
+    "pergunta": "Cite dois exemplos de doutrinas que a Igreja baseia fortemente na Tradição e Magistério.",
+    "resposta": "O Batismo de crianças e o dogma da Assunção de Nossa Senhora."
+  },
+  {
+    "id": 95,
+    "pergunta": "Para Santo Agostinho, a alma humana possui três faculdades que refletem a Trindade: memória, inteligência e _____.",
+    "resposta": "Vontade"
+  },
+  {
+    "id": 96,
+    "pergunta": "O que é o \"panteísmo\" de Baruch Espinosa?",
+    "resposta": "A crença de que Deus e o universo são a mesma coisa (\"Deus sive Natura\")."
+  },
+  {
+    "id": 97,
+    "pergunta": "Qual a principal crítica de David Hume à metafísica?",
+    "resposta": "Ele afirmava que ideias que não podem ser rastreadas até uma impressão sensorial são vazias."
+  },
+  {
+    "id": 98,
+    "pergunta": "Kant afirmava que o tempo e o espaço são formas _____ da sensibilidade.",
+    "resposta": "A priori (inatas)"
+  },
+  {
+    "id": 99,
+    "pergunta": "A frase \"O homem nasce livre e por toda parte encontra-se acorrentado\" é de qual filósofo?",
+    "resposta": "Jean-Jacques Rousseau."
+  },
+  {
+    "id": 100,
+    "pergunta": "Qual a relação entre estética e teologia segundo o material?",
+    "resposta": "A beleza da criação e da arte sacra é um reflexo da glória divina e via para chegar a Deus."
+  },
+  {
+    "id": 101,
+    "pergunta": "O que caracteriza a filosofia política católica?",
+    "resposta": "A defesa da dignidade humana, do bem comum e da subsidiariedade contra o individualismo e o coletivismo."
+  },
+  {
+    "id": 102,
+    "pergunta": "O Concílio Vaticano II ocorreu entre os anos de _____ e _____.",
+    "resposta": "1962; 1965"
+  },
+  {
+    "id": 103,
+    "pergunta": "Por que o estudo da teologia é considerado uma \"peregrinação espiritual\"?",
+    "resposta": "Porque transforma o coração e a mente através do diálogo com Deus que fala."
+  },
+  {
+    "id": 104,
+    "pergunta": "Qual o critério para avaliar se um conteúdo teológico na internet é confiável?",
+    "resposta": "Estar em conformidade com o pensamento oficial do Magistério da Igreja."
+  },
+  {
+    "id": 105,
+    "pergunta": "Na visão de Padre Daniel, estudar teologia é amar a Deus com o _____.",
+    "resposta": "Cérebro (ou inteligência)"
+  }
+]

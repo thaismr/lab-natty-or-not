@@ -1,0 +1,655 @@
+{
+  "quizTitle": "Curso Básico de Teologia para Leigos - Módulo Introdutório",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Qual é a etimologia da palavra 'Teologia'?",
+      "options": [
+        "Estudo do homem perante a natureza",
+        "Discurso ou estudo sobre Deus",
+        "Tradição dos antigos profetas",
+        "Lei divina aplicada aos homens"
+      ],
+      "answer": 1,
+      "rationale": "Vem do grego 'Theos' (Deus) e 'Logos' (estudo/discurso/razão).",
+      "hint": "Divida a palavra em duas partes de origem grega."
+    },
+    {
+      "id": 2,
+      "question": "Como Santo Anselmo definiu a Teologia de forma clássica?",
+      "options": [
+        "A ciência das escrituras sagradas",
+        "A filosofia aplicada à religião",
+        "A fé que busca o entendimento (fides quaerens intellectum)",
+        "O sentimento de dependência absoluta de Deus"
+      ],
+      "answer": 2,
+      "rationale": "Para Anselmo, o crente não busca entender para crer, mas crê para entender melhor o mistério.",
+      "hint": "Foca na relação dinâmica entre o ato de crer e o desejo de compreender."
+    },
+    {
+      "id": 3,
+      "question": "Qual é a principal diferença entre Teologia e Catequese, segundo o Padre Daniel?",
+      "options": [
+        "A catequese é para crianças e a teologia para adultos",
+        "A teologia é opcional, a catequese é obrigatória",
+        "A teologia busca a fundamentação racional e sistemática da fé, enquanto a catequese é a iniciação básica",
+        "Não há diferença, são sinônimos"
+      ],
+      "answer": 2,
+      "rationale": "A teologia aprofunda cientificamente o que a catequese apresenta como doutrina inicial.",
+      "hint": "Pense no nível de rigor intelectual e sistematização."
+    },
+    {
+      "id": 4,
+      "question": "O que é o 'Objeto Material' da Teologia?",
+      "options": [
+        "Os livros físicos da Bíblia",
+        "A história da humanidade",
+        "Deus e todas as coisas enquanto ordenadas a Deus",
+        "As leis litúrgicas da Igreja"
+      ],
+      "answer": 2,
+      "rationale": "O objeto material é aquilo que a ciência estuda; na Teologia, é Deus e todas as coisas consideradas em sua relação com Ele.",
+      "hint": "É o tema principal de estudo da disciplina."
+    },
+    {
+      "id": 5,
+      "question": "O que caracteriza o 'Objeto Formal' da Teologia?",
+      "options": [
+        "O estudo por meio da luz da razão natural apenas",
+        "O estudo sob a luz da Revelação Divina acolhida pela fé",
+        "A análise puramente histórica dos fatos",
+        "A observação empírica dos milagres"
+      ],
+      "answer": 1,
+      "rationale": "O objeto formal é o 'ponto de vista'; a teologia estuda as coisas sob a luz da fé (lumen fidei).",
+      "hint": "Diz respeito à 'lente' pela qual o teólogo enxerga a realidade."
+    },
+    {
+      "id": 6,
+      "question": "Qual passagem bíblica é o lema da Apologética no curso?",
+      "options": [
+        "João 3, 16",
+        "Mateus 28, 19",
+        "1 Pedro 3, 15",
+        "Gênesis 1, 1"
+      ],
+      "answer": 2,
+      "rationale": "São Pedro exorta a estarmos sempre prontos a dar a razão (logos) da nossa esperança.",
+      "hint": "O apóstolo que nos pede para estarmos preparados para responder."
+    },
+    {
+      "id": 7,
+      "question": "O que é a Teologia Natural (ou Teodiceia)?",
+      "options": [
+        "O estudo de Deus baseado apenas na Bíblia",
+        "O estudo de Deus através da luz da razão natural, sem auxílio da revelação",
+        "A teologia voltada para a ecologia",
+        "O estudo das religiões pagãs"
+      ],
+      "answer": 1,
+      "rationale": "É a parte da filosofia que chega à existência de Deus por argumentos lógicos.",
+      "hint": "Não usa a Bíblia como fonte primária, apenas o pensamento humano."
+    },
+    {
+      "id": 8,
+      "question": "Por que a Teologia é considerada uma 'Ciência'?",
+      "options": [
+        "Porque usa o método de laboratório",
+        "Porque possui objeto próprio, método e rigor sistemático",
+        "Porque é reconhecida pelo governo",
+        "Porque nega os mistérios inexplicáveis"
+      ],
+      "answer": 1,
+      "rationale": "É ciência no sentido clássico: possui objeto próprio, princípios (revelados), método e sistematização racional.",
+      "hint": "Pense nas características de qualquer disciplina acadêmica séria."
+    },
+    {
+      "id": 9,
+      "question": "Qual é a finalidade última do estudo teológico para um leigo?",
+      "options": [
+        "Obter um diploma acadêmico",
+        "Vencer debates com outras religiões",
+        "Conhecer a Deus para amá-Lo e servi-Lo melhor",
+        "Substituir a oração pelo estudo"
+      ],
+      "answer": 2,
+      "rationale": "O curso enfatiza que 'não se ama o que não se conhece'.",
+      "hint": "O objetivo é espiritual e relacional, não apenas intelectual."
+    },
+    {
+      "id": 10,
+      "question": "O que compõe o 'Tripé' da Revelação Católica?",
+      "options": [
+        "Pai, Filho e Espírito Santo",
+        "Escritura, Tradição e Magistério",
+        "Oração, Jejum e Esmola",
+        "Papa, Bispos e Padres"
+      ],
+      "answer": 1,
+      "rationale": "Essas três fontes são inseparáveis e garantem a transmissão fiel da fé.",
+      "hint": "As fontes onde bebemos o conhecimento revelado."
+    },
+    {
+      "id": 11,
+      "question": "O que é a 'Sagrada Tradição'?",
+      "options": [
+        "Costumes folclóricos de cada país",
+        "A transmissão viva do Evangelho na Igreja pelo poder do Espírito Santo",
+        "Apenas os escritos dos Padres da Igreja",
+        "Leis antigas que já foram revogadas"
+      ],
+      "answer": 1,
+      "rationale": "A Tradição precede e acompanha a Escritura, sendo a vida da Igreja no tempo.",
+      "hint": "É algo 'vivo' e transmitido sucessivamente desde os apóstolos."
+    },
+    {
+      "id": 12,
+      "question": "Qual o papel do Magistério da Igreja?",
+      "options": [
+        "Criar novas verdades de fé que não estão na Bíblia",
+        "Interpretar autenticamente a Palavra de Deus (escrita ou transmitida)",
+        "Governar a política mundial",
+        "Substituir o estudo individual dos fiéis"
+      ],
+      "answer": 1,
+      "rationale": "O Magistério não está acima da Palavra, mas a serve, definindo o que pertence ao depósito da fé.",
+      "hint": "A palavra vem de 'Magister' (mestre/professor)."
+    },
+    {
+      "id": 13,
+      "question": "Quem é o autor principal da Sagrada Escritura?",
+      "options": [
+        "Apenas os homens que escreveram",
+        "Deus, que inspirou os autores humanos (hagiógrafos)",
+        "O Papa que reuniu os livros",
+        "Os apóstolos individualmente"
+      ],
+      "answer": 1,
+      "rationale": "Deus é o autor principal, agindo nos autores humanos para que escrevam tudo e só o que Ele queria.",
+      "hint": "Doutrina da Inspiração Bíblica."
+    },
+    {
+      "id": 14,
+      "question": "A Teologia pode evoluir ou mudar as verdades de fé?",
+      "options": [
+        "Sim, a verdade muda conforme a época",
+        "Não, as verdades são imutáveis, mas nossa compreensão delas cresce e se aprofunda",
+        "Não, o que foi escrito nunca pode ser reestudado",
+        "Sim, o Magistério pode cancelar dogmas antigos"
+      ],
+      "answer": 1,
+      "rationale": "Ocorre um progresso na inteligência das coisas e palavras transmitidas, sem mudar a essência do dogma.",
+      "hint": "Diferencie o 'Depósito da Fé' do seu 'Aprofundamento'."
+    },
+    {
+      "id": 15,
+      "question": "Qual documento do Concílio Vaticano II trata sobre a Revelação Divina?",
+      "options": [
+        "Lumen Gentium",
+        "Gaudium et Spes",
+        "Dei Verbum",
+        "Sacrosanctum Concilium"
+      ],
+      "answer": 2,
+      "rationale": "A constituição dogmática 'Dei Verbum' é fundamental para entender a Escritura e a Tradição.",
+      "hint": "Significa 'Palavra de Deus' em latim."
+    },
+    {
+      "id": 16,
+      "question": "O que significa dizer que a Teologia é uma ciência 'subalternada'?",
+      "options": [
+        "Que ela é menos importante que a biologia",
+        "Que ela recebe seus princípios da ciência de Deus (revelação)",
+        "Que ela deve obedecer aos reis",
+        "Que ela não tem autonomia"
+      ],
+      "answer": 1,
+      "rationale": "Conceito tomista: a teologia baseia-se no conhecimento que Deus tem de Si mesmo e nos revela.",
+      "hint": "Ela 'depende' de uma luz superior."
+    },
+    {
+      "id": 17,
+      "question": "Na metáfora de São João Paulo II, fé e razão são comparadas a:",
+      "options": [
+        "Duas estradas que nunca se cruzam",
+        "Dois lados de uma moeda",
+        "Duas asas que elevam o espírito à verdade",
+        "Duas espadas em combate"
+      ],
+      "answer": 2,
+      "rationale": "Fé e razão se complementam na busca pela verdade plena sobre o homem e Deus.",
+      "hint": "Metáfora presente na encíclica 'Fides et Ratio'."
+    },
+    {
+      "id": 18,
+      "question": "Pode haver contradição real entre a fé e a ciência autêntica?",
+      "options": [
+        "Sim, pois a fé é subjetiva",
+        "Não, pois ambas têm a mesma origem em Deus, que é a Verdade",
+        "Sim, a ciência provou que a fé está errada",
+        "Apenas na Idade Média não havia contradição"
+      ],
+      "answer": 1,
+      "rationale": "Se houver aparente conflito, ou houve erro na interpretação científica ou erro na interpretação teológica; a verdade não pode contradizer a verdade.",
+      "hint": "Deus é o autor de toda verdade, seja ela natural ou sobrenatural."
+    },
+    {
+      "id": 19,
+      "question": "Qual a importância da Filosofia para a Teologia?",
+      "options": [
+        "Nenhuma, a filosofia é coisa de ateus",
+        "Fornece as ferramentas racionais e a linguagem para expressar os mistérios",
+        "Serve para provar que a religião é um mito",
+        "Substitui a necessidade da Bíblia"
+      ],
+      "answer": 1,
+      "rationale": "A filosofia ajuda a organizar o pensamento teológico (Ancilla Theologiae).",
+      "hint": "Pense nela como uma 'ferramenta' ou 'serva'."
+    },
+    {
+      "id": 20,
+      "question": "O que marca a passagem do 'Mito' para o 'Logos' na Grécia Antiga?",
+      "options": [
+        "O surgimento de novos deuses",
+        "A substituição de explicações poético-religiosas pela investigação racional",
+        "A invenção da escrita apenas",
+        "O fim de todas as religiões"
+      ],
+      "answer": 1,
+      "rationale": "Os primeiros filósofos buscaram a causa natural das coisas (physis) em vez da vontade dos deuses.",
+      "hint": "Substituição da narrativa mística pela razão."
+    },
+    {
+      "id": 21,
+      "question": "Quem foram os filósofos Pré-Socráticos?",
+      "options": [
+        "Os seguidores de Platão",
+        "Filósofos que buscavam o 'Arché' (princípio fundamental) da natureza",
+        "Os primeiros teólogos da Igreja",
+        "Filósofos romanos da época de César"
+      ],
+      "answer": 1,
+      "rationale": "Tales de Mileto, Anaximandro, entre outros, focavam na origem física do universo.",
+      "hint": "Eles buscavam o 'princípio de todas as coisas'."
+    },
+    {
+      "id": 22,
+      "question": "Qual era o centro do pensamento de Sócrates?",
+      "options": [
+        "A astronomia",
+        "O conhecimento de si mesmo e a ética",
+        "A física quântica",
+        "O governo dos tiranos"
+      ],
+      "answer": 1,
+      "rationale": "Sócrates desviou o olhar do cosmos para o homem ('Conhece-te a ti mesmo').",
+      "hint": "Ele não escreveu livros e focava no diálogo e na moral."
+    },
+    {
+      "id": 23,
+      "question": "O que era a 'Maiêutica' socrática?",
+      "options": [
+        "Uma técnica de guerra",
+        "O método de 'dar à luz' ideias através de perguntas",
+        "Uma forma de oração pagã",
+        "O estudo das plantas"
+      ],
+      "answer": 1,
+      "rationale": "Sócrates acreditava que a verdade estava no interior do homem e precisava ser 'partejada'.",
+      "hint": "Sua mãe era parteira, e ele usou isso como analogia."
+    },
+    {
+      "id": 24,
+      "question": "No pensamento de Platão, o que é o 'Mundo das Ideias'?",
+      "options": [
+        "Um lugar onde as pessoas imaginam coisas",
+        "A realidade suprema, perfeita e eterna, da qual este mundo é apenas sombra",
+        "O paraíso cristão",
+        "A mente dos governantes"
+      ],
+      "answer": 1,
+      "rationale": "Tudo o que vemos é uma cópia imperfeita das ideias eternas.",
+      "hint": "Lembre-se da Alegoria da Caverna."
+    },
+    {
+      "id": 25,
+      "question": "Qual a principal característica da 'Alegoria da Caverna' de Platão?",
+      "options": [
+        "As pessoas gostam de viver no escuro",
+        "A libertação da ignorância em direção à luz da verdade (o Bem)",
+        "A importância da mineração na Grécia",
+        "Que Deus mora em cavernas"
+      ],
+      "answer": 1,
+      "rationale": "O filósofo é aquele que sai das sombras das aparências para contemplar o Sol (a Verdade).",
+      "hint": "Diferença entre sombras e a realidade fora da caverna."
+    },
+    {
+      "id": 26,
+      "question": "Aristóteles divergia de Platão por ser um filósofo:",
+      "options": [
+        "Idealista",
+        "Realista, que valorizava a experiência sensível",
+        "Ateu",
+        "Que negava a lógica"
+      ],
+      "answer": 1,
+      "rationale": "Aristóteles focava na essência das coisas dentro delas mesmas, não em um mundo separado.",
+      "hint": "Ele olhava para as coisas concretas da natureza."
+    },
+    {
+      "id": 27,
+      "question": "Quais são as 'Quatro Causas' de Aristóteles?",
+      "options": [
+        "Água, Fogo, Terra e Ar",
+        "Material, Formal, Eficiente e Final",
+        "Passado, Presente, Futuro e Eterno",
+        "Nascimento, Vida, Morte e Ressurreição"
+      ],
+      "answer": 1,
+      "rationale": "Para conhecer algo, é preciso saber de que é feito, sua forma, quem fez e para que serve.",
+      "hint": "Essencial para a metafísica aristotélica e tomista."
+    },
+    {
+      "id": 28,
+      "question": "O que Aristóteles chama de 'Primeiro Motor Imóvel'?",
+      "options": [
+        "Uma máquina antiga",
+        "A causa primeira que move tudo sem ser movida (Deus na filosofia)",
+        "O sol",
+        "A alma humana"
+      ],
+      "answer": 1,
+      "rationale": "Argumento lógico: a cadeia de movimentos não pode ser infinita; deve haver um início.",
+      "hint": "A origem de todo movimento no universo."
+    },
+    {
+      "id": 29,
+      "question": "O que caracteriza o período da 'Patrística'?",
+      "options": [
+        "A briga entre padres e bispos",
+        "O esforço dos primeiros Padres da Igreja para harmonizar fé cristã e filosofia grega",
+        "O fim do cristianismo em Roma",
+        "A escrita apenas do Novo Testamento"
+      ],
+      "answer": 1,
+      "rationale": "Grandes nomes como Agostinho e Justino defenderam a fé usando a razão.",
+      "hint": "Vem de 'Pater' (Pais/Padres da Igreja)."
+    },
+    {
+      "id": 30,
+      "question": "Qual filósofo grego mais influenciou Santo Agostinho?",
+      "options": [
+        "Aristóteles",
+        "Platão (Neoplatonismo)",
+        "Epicuro",
+        "Zenão"
+      ],
+      "answer": 1,
+      "rationale": "Agostinho cristianizou conceitos platônicos como o mundo das ideias (ideias na mente de Deus).",
+      "hint": "O filósofo do idealismo."
+    },
+    {
+      "id": 31,
+      "question": "Para Santo Agostinho, como o homem alcança a verdade?",
+      "options": [
+        "Pela Teoria da Iluminação Divina",
+        "Apenas lendo livros gregos",
+        "Pela força bruta",
+        "Deus não permite ao homem conhecer a verdade"
+      ],
+      "answer": 0,
+      "rationale": "Deus ilumina a inteligência humana para que ela possa perceber as verdades eternas.",
+      "hint": "É como uma 'luz' interior dada pelo Criador."
+    },
+    {
+      "id": 32,
+      "question": "Como Santo Agostinho define o 'Mal'?",
+      "options": [
+        "Uma força igual a Deus",
+        "A ausência ou privação do bem (privatio boni)",
+        "Um deus menor e vingativo",
+        "Algo que não existe de forma alguma"
+      ],
+      "answer": 1,
+      "rationale": "O mal não é uma 'coisa' criada por Deus, mas a falta do bem onde ele deveria estar.",
+      "hint": "Assim como a escuridão é a ausência de luz."
+    },
+    {
+      "id": 33,
+      "question": "O que foi a 'Escolástica' na Idade Média?",
+      "options": [
+        "Uma técnica de construção de igrejas",
+        "O método de ensino das universidades medievais que unia fé e razão",
+        "Uma ordem religiosa mendicante",
+        "O estudo das línguas orientais"
+      ],
+      "answer": 1,
+      "rationale": "Destaque para o método de disputa (questões) e a sistematização da teologia.",
+      "hint": "Relacionado às 'Escolas' e Universidades."
+    },
+    {
+      "id": 34,
+      "question": "Quem é o maior expoente da Escolástica, autor da 'Suma Teológica'?",
+      "options": [
+        "São Bento",
+        "São Tomás de Aquino",
+        "São Francisco de Assis",
+        "Santo Antônio"
+      ],
+      "answer": 1,
+      "rationale": "Tomás de Aquino realizou a maior síntese entre aristotelismo e cristianismo.",
+      "hint": "O 'Doutor Angélico'."
+    },
+    {
+      "id": 35,
+      "question": "Quantas são as 'Vias' de São Tomás para provar a existência de Deus pela razão?",
+      "options": [
+        "Três",
+        "Cinco",
+        "Sete",
+        "Dez"
+      ],
+      "answer": 1,
+      "rationale": "As cinco vias: Primeiro Motor, Causa Eficiente, Contingência, Graus de Perfeição e Finalidade.",
+      "hint": "Um número importante na sua obra principal."
+    },
+    {
+      "id": 36,
+      "question": "Qual a visão de São Tomás sobre a relação entre Graça e Natureza?",
+      "options": [
+        "A graça destrói a natureza",
+        "A natureza substitui a graça",
+        "A graça não destrói a natureza, mas a aperfeiçoa",
+        "Natureza e Graça são inimigas"
+      ],
+      "answer": 2,
+      "rationale": "Princípio tomista fundamental: o sobrenatural eleva o natural sem anulá-lo.",
+      "hint": "Deus age 'sobre' o que Ele mesmo criou."
+    },
+    {
+      "id": 37,
+      "question": "O que caracteriza a virada da Filosofia Moderna?",
+      "options": [
+        "A volta ao teocentrismo",
+        "O antropocentrismo (o homem como centro do conhecimento)",
+        "O fim da ciência experimental",
+        "A proibição do latim"
+      ],
+      "answer": 1,
+      "rationale": "O foco sai de 'Deus/Ser' para o 'Sujeito/Eu' que conhece.",
+      "hint": "O homem passa a ser o ponto de partida."
+    },
+    {
+      "id": 38,
+      "question": "Quem é considerado o 'Pai da Filosofia Moderna'?",
+      "options": [
+        "Isaac Newton",
+        "René Descartes",
+        "Martinho Lutero",
+        "Blaise Pascal"
+      ],
+      "answer": 1,
+      "rationale": "Descartes estabeleceu a dúvida metódica e o foco na consciência.",
+      "hint": "Autor de 'O Discurso do Método'."
+    },
+    {
+      "id": 39,
+      "question": "O que significa o 'Cogito, ergo sum' de Descartes?",
+      "options": [
+        "Deus existe, logo sou feliz",
+        "Penso, logo existo",
+        "Duvido de tudo, logo nada existe",
+        "A vida é um sonho"
+      ],
+      "answer": 1,
+      "rationale": "É a primeira certeza indubitável encontrada pelo filósofo após a dúvida.",
+      "hint": "A base do racionalismo moderno."
+    },
+    {
+      "id": 40,
+      "question": "Qual a principal ideia do 'Racionalismo'?",
+      "options": [
+        "Todo conhecimento vem dos sentidos",
+        "A razão é a única fonte segura do conhecimento (ideias inatas)",
+        "Não podemos conhecer nada",
+        "A fé é superior à razão em tudo"
+      ],
+      "answer": 1,
+      "rationale": "Desconfia dos sentidos e confia na lógica e dedução matemática.",
+      "hint": "Prioriza a mente sobre o corpo/sentidos."
+    },
+    {
+      "id": 41,
+      "question": "O que defendia o 'Empirismo' (Locke, Hume)?",
+      "options": [
+        "Que nascemos com ideias prontas",
+        "Que todo conhecimento vem da experiência sensível (sentidos)",
+        "Que a razão é uma ilusão",
+        "Que só a Bíblia é fonte de verdade"
+      ],
+      "answer": 1,
+      "rationale": "A mente é uma 'folha em branco' (tabula rasa) preenchida pela experiência.",
+      "hint": "Foca no que podemos ver, tocar e sentir."
+    },
+    {
+      "id": 42,
+      "question": "Como Immanuel Kant tentou resolver o conflito entre racionalismo e empirismo?",
+      "options": [
+        "Negando ambos",
+        "Através do Idealismo Transcendental (síntese entre razão e experiência)",
+        "Dizendo que a fé resolve tudo",
+        "Criando uma nova religião"
+      ],
+      "answer": 1,
+      "rationale": "Kant afirmou que a experiência fornece a matéria, mas a mente fornece a forma do conhecimento.",
+      "hint": "Ele fez uma 'Revolução Copernicana' na filosofia."
+    },
+    {
+      "id": 43,
+      "question": "Para Kant, podemos conhecer a Deus através da 'Razão Pura'?",
+      "options": [
+        "Sim, Deus é um objeto físico",
+        "Não, Deus está além dos limites do conhecimento sensível",
+        "Sim, a ciência provou Deus",
+        "Deus é uma ideia inata clara"
+      ],
+      "answer": 1,
+      "rationale": "Deus não é um fenômeno que se apresenta no espaço e tempo para a ciência.",
+      "hint": "Diferença entre conhecer e pensar."
+    },
+    {
+      "id": 44,
+      "question": "Como Deus aparece na filosofia de Kant?",
+      "options": [
+        "Como uma superstição inútil",
+        "Como um 'postulado da razão prática' necessário para a moral",
+        "Como um tirano",
+        "Como a própria natureza"
+      ],
+      "answer": 1,
+      "rationale": "Precisamos aceitar Deus para que a justiça e a ética façam sentido.",
+      "hint": "Deus entra pela porta da 'Moral'."
+    },
+    {
+      "id": 45,
+      "question": "O que foi o 'Iluminismo'?",
+      "options": [
+        "Um movimento de eletricidade nas cidades",
+        "Movimento que exaltava a razão contra a autoridade da tradição e da Igreja",
+        "A reforma protestante",
+        "O período das cruzadas"
+      ],
+      "answer": 1,
+      "rationale": "Busca da autonomia humana e crítica severa às religiões reveladas.",
+      "hint": "Século das Luzes."
+    },
+    {
+      "id": 46,
+      "question": "O que Blaise Pascal quis dizer com 'o coração tem razões que a própria razão desconhece'?",
+      "options": [
+        "Que a fé é irracional",
+        "Que existe uma ordem de conhecimento intuitivo e afetivo distinta do raciocínio lógico discursivo",
+        "Que a biologia do coração é complexa",
+        "Que não devemos pensar antes de agir"
+      ],
+      "answer": 1,
+      "rationale": "Pascal defendia que a fé é um encontro pessoal com o 'Deus de Abraão', não dos filósofos.",
+      "hint": "Ele era um gênio matemático que valorizava a experiência mística."
+    },
+    {
+      "id": 47,
+      "question": "Qual o desafio do 'Relativismo' na contemporaneidade?",
+      "options": [
+        "Achar que tudo é muito difícil",
+        "A negação de verdades absolutas, onde cada um cria sua própria verdade",
+        "O excesso de leis na Igreja",
+        "A volta das monarquias"
+      ],
+      "answer": 1,
+      "rationale": "O relativismo impede o diálogo sobre a verdade, pois a torna puramente subjetiva.",
+      "hint": "O Papa Bento XVI chamou isso de 'Ditadura do Relativismo'."
+    },
+    {
+      "id": 48,
+      "question": "O Cientificismo é:",
+      "options": [
+        "O amor pela ciência correta",
+        "A crença de que só a ciência experimental é fonte de verdade válida",
+        "A construção de novos hospitais",
+        "O estudo teológico da criação"
+      ],
+      "answer": 1,
+      "rationale": "O cientificismo exclui a filosofia e a teologia como formas de conhecimento real.",
+      "hint": "Uma visão 'fechada' da ciência."
+    },
+    {
+      "id": 49,
+      "question": "A Teologia é necessária para a salvação?",
+      "options": [
+        "Sim, quem não estuda não se salva",
+        "Não como disciplina acadêmica, mas conhecer a fé ajuda a vivê-la com fidelidade",
+        "Apenas para os padres",
+        "Não, a ignorância é melhor"
+      ],
+      "answer": 1,
+      "rationale": "A fé simples salva, mas a teologia protege a fé de erros e heresias.",
+      "hint": "Diferencie o 'estudo' do 'ato de crer'."
+    },
+    {
+      "id": 50,
+      "question": "Qual é a atitude correta do estudante de Teologia leigo?",
+      "options": [
+        "Orgulho intelectual por saber mais que os outros",
+        "Humildade, oração e desejo de servir à Igreja",
+        "Questionar todos os dogmas para mudá-los",
+        "Estudar apenas para passar no teste"
+      ],
+      "answer": 1,
+      "rationale": "A teologia deve ser feita de joelhos (oração) e em comunhão com a Igreja.",
+      "hint": "Pense nas virtudes cristãs aplicadas ao estudo."
+    }
+  ]
+}

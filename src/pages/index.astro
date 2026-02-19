@@ -1,0 +1,80 @@
+---
+import Layout from '../layouts/Layout.astro';
+import MindMap from '../components/MindMap';
+import Quiz from '../components/Quiz';
+import SlidesCarousel from '../components/SlidesCarousel';
+import Flashcards from '../components/Flashcards';
+import VideoResumo from '../components/VideoResumo';
+---
+
+<Layout title="Recursos de Estudo de Teologia" description="Mapas mentais, flashcards, slides e quizzes para estudo de Teologia">
+  <header class="py-8 px-4 text-center">
+    <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif text-terra-umbro mb-4">
+      Recursos de Estudo de Teologia
+    </h1>
+  </header>
+
+  <section class="px-4 mb-8 max-w-4xl mx-auto">
+    <div class="bg-areia-clara rounded-lg p-6 shadow-aquarela">
+      <h2 class="font-serif text-2xl text-terra-umbro mb-4">📖 Descrição do Projeto</h2>
+      <p class="text-chumbo-suave leading-relaxed mb-4">
+        Este projeto foi desenvolvido como parte de um <strong>Desafio de Lab na DIO (Digital Innovation One)</strong>, 
+        com o objetivo de explorar o potencial das IAs Generativas no desenvolvimento de aplicações modernas e funcionais.
+      </p>
+      <p class="text-chumbo-suave leading-relaxed mb-4">
+        Aproveitei esta oportunidade técnica para criar uma plataforma de apoio aos meus estudos pessoais no 
+        <a href="https://www.padredanielribeiroscj.com.br/curso/modulo-1/" target="_blank" rel="noopener noreferrer" 
+        class="font-bold text-azul-sereno hover:text-ouro-velho underline transition-colors">Curso Básico de Teologia
+        para Leigos</a>, do <strong>Padre Daniel Ribeiro</strong>. 
+        Este site funciona como um hub de recursos educacionais interativos, 
+        oferecendo ferramentas práticas de revisão de aprendizado, como mapas mentais dinâmicos, flashcards e quizzes.
+      </p>
+      <details>
+        <summary class="cursor-pointer font-semibold text-sm text-terra-umbro hover:text-ouro-velho transition-colors">
+          Ler mais sobre o projeto
+        </summary>
+        <div class="mt-4 text-chumbo-suave leading-relaxed">
+          <p>
+            O projeto aplica conceitos avançados de Astro Islands, React e Framer Motion, unindo uma estética refinada 
+            em aquarela à máxima performance web, provando que a tecnologia pode ser uma ponte poderosa para aprofundar 
+            o conhecimento em temas tradicionais e espirituais.
+          </p>
+          <p class="mt-4">
+            Todos os recursos foram desenvolvidos com foco na experiência de aprendizado, utilizando animações suaves 
+            e um design inspirado em manuscritos antigos.
+          </p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <main class="px-4 pb-12 max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Mapa Mental -->
+      <article class="bg-areia-clara rounded-lg p-6 border-2 border-azul-sereno shadow-card-flutuante col-span-full">
+        <MindMap client:visible />
+      </article>
+
+      <!-- Vídeo Resumo -->
+      <article class="bg-areia-clara rounded-lg p-6 border-2 border-azul-sereno shadow-card-flutuante col-span-full">
+        <VideoResumo client:visible />
+      </article>
+
+      <!-- Apresentação de Slides -->
+      <article class="bg-areia-clara rounded-lg p-6 border-2 border-azul-sereno shadow-card-flutuante col-span-full">
+        <SlidesCarousel client:visible />
+      </article>
+
+      <!-- Flashcards e Quizz Interativo -->
+      <div class="col-span-full grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <article class="bg-areia-clara rounded-lg p-6 border-2 border-azul-sereno shadow-card-flutuante">
+          <Flashcards client:visible />
+        </article>
+
+        <article class="bg-areia-clara rounded-lg p-6 border-2 border-azul-sereno shadow-card-flutuante">
+          <Quiz client:visible />
+        </article>
+      </div>
+    </div>
+  </main>
+</Layout>

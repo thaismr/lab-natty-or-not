@@ -1,0 +1,126 @@
+{
+  "titulo": "Introdução à Filosofia Geral",
+  "estrutura": [
+    {
+      "tema": "Definição e Origem",
+      "subtemas": [
+        {
+          "topico": "Amor à sabedoria",
+          "descricao": "Significado etimológico da palavra filosofia (philo-sophia), definindo o filósofo como aquele que busca compreender a realidade em sua totalidade."
+        },
+        {
+          "topico": "Grécia Antiga",
+          "descricao": "Berço da filosofia, onde o pensamento racional começou a substituir as explicações mitológicas sobre a origem do universo."
+        },
+        {
+          "topico": "Razão vs Mito",
+          "descricao": "Transição do 'mythos' (narrativas fantásticas) para o 'logos' (razão), buscando explicações lógicas e demonstráveis para os fenômenos."
+        },
+        {
+          "topico": "Sentido último das coisas",
+          "descricao": "A filosofia diferencia-se das ciências particulares por interrogar as causas primeiras e os princípios fundamentais da existência e do ser."
+        }
+      ]
+    },
+    {
+      "tema": "Filosofia Antiga",
+      "subtemas": [
+        {
+          "tema": "Pré-socráticos (Arché)",
+          "descricao": "Primeiros filósofos que buscavam o princípio fundamental (arché) da natureza (physis).",
+          "filosofos": [
+            { "nome": "Tales (Água)", "descricao": "Considerado o primeiro filósofo, defendia a água como a origem de todas as coisas." },
+            { "nome": "Anaxímenes (Ar)", "descricao": "Propôs o ar como o princípio vital e substância primária do cosmos." },
+            { "nome": "Heráclito (Fogo/Devir)", "descricao": "Afirmava que tudo flui (panta rhei) e que a mudança constante é a natureza da realidade." },
+            { "nome": "Empédocles (4 Elementos)", "descricao": "Teorizou que a realidade é composta pela combinação de terra, água, ar e fogo." }
+          ]
+        },
+        {
+          "tema": "Período Clássico",
+          "descricao": "Fase de apogeu da filosofia grega, com foco na ética, política e metafísica.",
+          "filosofos": [
+            { "nome": "Sócrates (Maiêutica/Ética)", "descricao": "Focou no autoconhecimento e no método de perguntas para parir ideias e buscar a verdade moral." },
+            { "nome": "Platão (Mundo das Ideias)", "descricao": "Defendeu a existência de um mundo inteligível perfeito, do qual o mundo sensível é apenas uma cópia." },
+            { "nome": "Aristóteles (4 Causas/Metafísica)", "descricao": "Sistematizou o conhecimento focando na experiência e nas causas material, formal, eficiente e final." }
+          ]
+        },
+        {
+          "tema": "Escolas Helenísticas",
+          "descricao": "Filosofias focadas na conduta humana e na busca pela paz interior.",
+          "correntes": [
+            { "nome": "Estoicismo (Logos/Virtude)", "descricao": "Prega a aceitação do destino e a vida conforme a razão para alcançar a felicidade." },
+            { "nome": "Epicurismo (Ataraxia/Prazer)", "descricao": "Busca a ausência de dor e a tranquilidade da alma através de prazeres moderados." },
+            { "nome": "Ceticismo (Suspensão do juízo)", "descricao": "Defende que não se pode atingir a certeza absoluta, sugerindo a suspensão das crenças." }
+          ]
+        }
+      ]
+    },
+    {
+      "tema": "Filosofia Medieval",
+      "subtemas": [
+        { "topico": "Patrística (S. Justino/Sementes do Verbo)", "descricao": "Primeiro encontro entre fé e filosofia; Justino via na filosofia grega 'sementes' da verdade cristã." },
+        { "topico": "S. Agostinho (Interioridade/Graça)", "descricao": "Uniu o platonismo ao cristianismo, focando na busca de Deus no interior da alma humana." },
+        { "topico": "S. Anselmo (Argumento Ontológico)", "descricao": "Definiu a teologia como a 'fé que busca o entendimento' e propôs a prova da existência de Deus pela própria ideia de Deus." },
+        { "topico": "Escolástica (S. Tomás de Aquino/5 Vias)", "descricao": "Harmonizou Aristóteles com a fé, criando as cinco vias racionais para provar a existência de Deus." },
+        { "topico": "Duns Scotus (Primazia da vontade)", "descricao": "Enfatizou a liberdade e a vontade divina e humana acima do intelectualismo puro." },
+        { "topico": "G. Ockham (Nominalismo/Navalha)", "descricao": "Defendeu que conceitos universais são apenas nomes e que a explicação mais simples costuma ser a correta." }
+      ]
+    },
+    {
+      "tema": "Filosofia Moderna",
+      "subtemas": [
+        {
+          "tema": "Racionalismo",
+          "descricao": "Defende que a razão é a principal fonte do conhecimento verdadeiro, independente da experiência.",
+          "filosofos": [
+            { "nome": "Descartes (Cogito)", "descricao": "Pai da modernidade, estabeleceu o 'penso, logo existo' como base segura para o saber." },
+            { "nome": "Spinoza (Panteísmo)", "descricao": "Identificou Deus com a própria natureza e substância única do universo." },
+            { "nome": "Leibniz (Mônadas)", "descricao": "Propôs que o universo é composto por substâncias simples e espirituais chamadas mônadas." }
+          ]
+        },
+        {
+          "tema": "Empirismo",
+          "descricao": "Sustenta que todo conhecimento provém da experiência sensorial e dos dados dos sentidos.",
+          "filosofos": [
+            { "nome": "Locke (Tábula rasa)", "descricao": "Afirmou que a mente humana nasce como uma folha em branco, preenchida pela experiência." },
+            { "nome": "Hume (Ceticismo/Causalidade)", "descricao": "Questionou a causalidade, afirmando que nossas conclusões sobre causa e efeito são apenas hábitos mentais." }
+          ]
+        },
+        { "topico": "Idealismo Transcendental (Kant)", "descricao": "Tentou sintetizar racionalismo e empirismo, afirmando que a mente molda a percepção da realidade." },
+        { "topico": "Blaise Pascal (Aposta/Coração)", "descricao": "Defendeu que 'o coração tem razões que a própria razão desconhece', enfatizando a fé pessoal." },
+        { "topico": "Iluminismo (Voltaire/Rousseau)", "descricao": "Movimento que exaltou a razão, a liberdade e o progresso, muitas vezes questionando a autoridade religiosa." }
+      ]
+    },
+    {
+      "tema": "Filosofia Contemporânea",
+      "subtemas": [
+        { "topico": "Hegel (Espírito Absoluto)", "descricao": "Propôs uma visão histórica da realidade como o desenvolvimento dialético da consciência e da ideia." },
+        { "topico": "Marx (Materialismo Histórico)", "descricao": "Focou na economia e na luta de classes como motores das transformações sociais e históricas." },
+        { "topico": "Nietzsche (Morte de Deus/Niilismo)", "descricao": "Criticou os valores tradicionais e a moral cristã, anunciando o vazio de sentido do mundo moderno." },
+        { "topico": "Existencialismo (Sartre/Heidegger)", "descricao": "Investiga a angústia da existência humana, a liberdade e a criação do próprio sentido da vida." },
+        { "topico": "Fenomenologia (Husserl/Merleau-Ponty)", "descricao": "Busca descrever as estruturas da consciência e como os fenômenos aparecem para o sujeito." },
+        { "topico": "Personalismo (Wojtyła/Mounier/Maritain)", "descricao": "Corrente que coloca a dignidade da pessoa humana e sua relação com o outro e com Deus no centro da reflexão." }
+      ]
+    },
+    {
+      "tema": "Áreas de Estudo",
+      "subtemas": [
+        { "topico": "Metafísica (Ser)", "descricao": "Estudo do ser enquanto ser e das realidades que transcendem o mundo físico." },
+        { "topico": "Gnoseologia (Conhecimento)", "descricao": "Ramo que investiga as fontes, a natureza e os limites do conhecimento humano." },
+        { "topico": "Lógica (Raciocínio)", "descricao": "Estudo das regras do pensamento correto e da estrutura dos argumentos válidos." },
+        { "topico": "Ética (Bem/Moral)", "descricao": "Reflexão sobre o agir humano, os valores morais e a busca pelo bem comum." },
+        { "topico": "Antropologia (Homem)", "descricao": "Estudo sobre a natureza, a origem e o destino do ser humano." },
+        { "topico": "Estética (Belo)", "descricao": "Investigação sobre a natureza da arte, da beleza e do gosto." }
+      ]
+    },
+    {
+      "tema": "Fé e Razão (Fides et Ratio)",
+      "subtemas": [
+        { "topico": "Complementaridade", "descricao": "Visão católica de que fé e razão são 'duas asas' que elevam o espírito humano à verdade." },
+        { "topico": "Teologia como ciência", "descricao": "Uso da razão para organizar e explicar sistematicamente os dados da fé revelada." },
+        { "topico": "Defesa da Revelação", "descricao": "Papel da filosofia em fornecer bases racionais para proteger e explicar os mistérios divinos (apologética)." },
+        { "topico": "Busca pela Verdade", "descricao": "Entendimento de que não há contradição entre a verdade científica e a verdade de fé, pois ambas vêm de Deus." }
+      ]
+    }
+  ]
+}
